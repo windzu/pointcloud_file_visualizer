@@ -90,9 +90,9 @@ def parse_args():
 
     parser = argparse.ArgumentParser(description="view point cloud")
     parser.add_argument("-f", "--file_path", help="file path", default="./bin_test")
-    parser.add_argument("-s", "--suffix", help="file suffix", default=".pcd")
-    parser.add_argument("-w", "--width", help="window width", default=1024)
-    parser.add_argument("-h", "--height", help="window height", default=768)
+    parser.add_argument("-s", "--suffix", help="file suffix", default=".bin")
+    parser.add_argument("--width", help="window width", default=1024)
+    parser.add_argument("--height", help="window height", default=768)
     return parser.parse_args()
 
 
