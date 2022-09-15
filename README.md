@@ -1,3 +1,6 @@
+# WARNING
+本仓库不再维护，相关的功能移植至[wadda](https://github.com/windzu/wadda)项目中，详情可查看如何在wadda中使用pcd文件的查看功能
+
 # 点云文件查看小工具
 
 ## 特性
